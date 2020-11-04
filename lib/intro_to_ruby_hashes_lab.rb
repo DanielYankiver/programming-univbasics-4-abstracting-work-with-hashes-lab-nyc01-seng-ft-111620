@@ -8,11 +8,7 @@ end
 # return the correct value using the hash and key parameters:
 
 def read_from_hash(hash, key)
-  if hash[key] = true 
-    return hash[key]
-  else
-    1
-  end
+  hash[key]
 end
 
 def update_counting_hash(hash, key)
