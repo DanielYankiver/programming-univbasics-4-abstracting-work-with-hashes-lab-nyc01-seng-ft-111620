@@ -12,6 +12,7 @@ def read_from_hash(hash, key)
     return hash[key]
   else
     1
+  end
 end
 
 def update_counting_hash(hash, key)
